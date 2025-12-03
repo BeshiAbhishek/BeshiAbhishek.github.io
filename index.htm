@@ -1,65 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Beshi Abhishek | Data Analyst Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Beshi Abhishek</h1>
-    <p>AI & ML Engineer | Data Analyst | Developer</p>
-</header>
+<nav>
+  <h2 class="logo">Abhishek</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#academics">Academics</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-<section id="about">
-    <h2>About Me</h2>
+<section id="home" class="hero">
+  <h1>Hi, I'm <span>Beshi Abhishek</span></h1>
+  <h2>Aspiring <span id="typing"></span></h2>
+  <p class="tagline">Turning data into insights | AI & ML Graduate</p>
+
+  <div class="buttons">
+    <a href="https://github.com/BeshiAbhishek" target="_blank">GitHub</a>
+    <a href="#">Download Resume</a>
+  </div>
+</section>
+
+<section id="about" class="section hidden">
+  <h2>About Me</h2>
+  <p>
+    I am a B.Tech graduate in Artificial Intelligence & Machine Learning with
+    a strong passion for Data Analytics and Business Intelligence.
+    I enjoy working with data, uncovering insights, and building analytical
+    solutions that support better decision-making.
+  </p>
+</section>
+
+<section id="skills" class="section hidden">
+  <h2>Technical Skills</h2>
+
+  <div class="skill-category">
+    <h3>Data Analytics</h3>
+    <div class="skills-grid">
+      <div>Python</div>
+      <div>Pandas</div>
+      <div>NumPy</div>
+      <div>SQL</div>
+      <div>Excel</div>
+      <div>Power BI (Beginner)</div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>AI & Machine Learning</h3>
+    <div class="skills-grid">
+      <div>Supervised Learning</div>
+      <div>Classification</div>
+      <div>Model Evaluation</div>
+      <div>Data Preprocessing</div>
+    </div>
+  </div>
+
+  <div class="skill-category">
+    <h3>Web Technologies</h3>
+    <div class="skills-grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Git & GitHub</div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section hidden">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Chess Winner Prediction</h3>
     <p>
-        I'm a B.Tech graduate in AI & ML, passionate about Machine Learning,
-        Data Analytics, and real-world problem solving.  
-        I build smart projects, automate tasks, and explore business intelligence.
+      Machine learning project that predicts the outcome of chess games using
+      historical match data and classification models.
     </p>
-</section>
+    <a href="https://github.com/BeshiAbhishek" target="_blank">View on GitHub</a>
+  </div>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Machine Learning</li>
-        <li>SQL</li>
-        <li>HTML, CSS, JS</li>
-        <li>Data Analysis</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>Chess Winner Prediction (Machine Learning)</h3>
-        <p>Predict match outcomes using ML models trained on Lichess dataset.</p>
-        <a href="https://github.com/BeshiAbhishek" target="_blank">View Project</a>
-    </div>
-
-    <div class="project">
-        <h3>Breast Cancer Classification</h3>
-        <p>ML model identifying malignant and benign tumors.</p>
-        <a href="https://github.com/BeshiAbhishek" target="_blank">View Project</a>
-    </div>
+  <div class="project-card">
+    <h3>Breast Cancer Classification</h3>
+    <p>
+      AI & ML project focused on medical data to classify tumors as benign or
+      malignant using supervised learning.
+    </p>
+    <a href="https://github.com/BeshiAbhishek" target="_blank">View on GitHub</a>
+  </div>
 
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:beshiabhishek@gmail.com">beshiabhishek@gmail.com</a></p>
-    <p>Phone: +91 7981031423</p>
-    <p>GitHub: <a href="https://github.com/BeshiAbhishek" target="_blank">github.com/BeshiAbhishek</a></p>
+<section id="academics" class="section hidden">
+  <h2>Academic Background</h2>
+  <p><strong>B.Tech in Artificial Intelligence & Machine Learning</strong></p>
+  <p>Graduated in 2025</p>
+
+  <p class="academic-note">
+    Core exposure to:
+    Data Structures, Probability & Statistics, Machine Learning,
+    Data Mining, and Python Programming.
+  </p>
+</section>
+
+<section id="hobbies" class="section hidden">
+  <h2>Hobbies & Interests</h2>
+
+  <div class="skills-grid">
+    <div>Reading Books</div>
+    <div>Story Writing</div>
+    <div>Singing</div>
+    <div>Nature & Trees</div>
+    <div>Meditation & Yoga</div>
+  </div>
+</section>
+
+<section id="contact" class="section hidden">
+  <h2>Contact</h2>
+  <p>Email: beshiabhishek@gmail.com</p>
+  <p>Phone: +91 7981031423</p>
+  <p>GitHub: github.com/BeshiAbhishek</p>
 </section>
 
 <footer>
-    <p>&copy; 2025 Abhishek Portfolio</p>
+  <p>© <span id="year"></span> Beshi Abhishek | Data Analyst Portfolio</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
